@@ -10,3 +10,14 @@
 .product {
 	display: flex;
 }
+@media (max-width: 600px) {
+	.box {
+		width: 100%;
+	}
+	.image {
+		width: 100%;
+	}
+	.product {
+		display: block;
+	}
+}

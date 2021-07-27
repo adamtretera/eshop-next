@@ -69,6 +69,7 @@ function Home(props) {
 					{!currentPosts.length && <p>Nic jsem tu nenašel.</p>}
 				</section>
 				<Pagination
+					page={page}
 					postsPerPage={productsPerPage}
 					totalPosts={products.length}
 					paginate={paginate}

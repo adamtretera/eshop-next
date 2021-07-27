@@ -62,6 +62,9 @@ a {
 	display: grid;
 	place-items: center;
 }
+.page-number {
+	font-weight: bold;
+}
 
 @media (max-width: 600px) {
 	.pagination li {
