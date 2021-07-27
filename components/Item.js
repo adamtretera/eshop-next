@@ -8,6 +8,8 @@ function Item({ product }) {
 				<div className="product-image">
 					<Image
 						width={300}
+						placeholder={"blur"}
+						blurDataURL={"UKRfqSfR_3WBt7ofaxV@~qWB9Et7j?Rjt7xu"}
 						height={300}
 						src={"/product.jpg"}
 						alt={product.title}

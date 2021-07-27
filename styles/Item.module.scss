@@ -10,9 +10,23 @@
 .product {
 	display: flex;
 }
+.product h1 {
+	font-weight: 400;
+}
+.product p {
+	font-weight: 300;
+}
+.product button {
+	margin: 5% auto;
+}
 @media (max-width: 600px) {
+	.product button {
+		display: flex;
+	}
+
 	.box {
-		width: 100%;
+		width: 80%;
+		margin: auto;
 	}
 	.image {
 		width: 100%;
