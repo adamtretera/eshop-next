@@ -1,0 +1,31 @@
+.navbar {
+	width: 100%;
+	height: 20vh;
+	border-bottom: 1px solid #eaeaea;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	padding-left: 5%;
+	width: 20%;
+	font-weight: bold;
+}
+
+.navbar ul {
+	margin-right: 5%;
+	text-decoration: none;
+}
+.navbar form {
+	width: 60%;
+}
+.navbar input {
+	padding: 1.2% 2%;
+	font-weight: 300;
+	font-size: 120%;
+	width: 50%;
+	border: 1px solid #c7c6c6;
+}
+.navbar input::placeholder {
+	font-weight: 300;
+	color: #c7c6c6;
+}
