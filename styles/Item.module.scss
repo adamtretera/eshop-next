@@ -1,10 +1,13 @@
+@import "./variables";
 .box {
 	width: 60%;
 	display: flex;
 	align-items: center;
+	color: $border-color;
 }
 .image {
 	width: 40%;
+	border: 1px solid $border-color;
 }
 
 .product {
