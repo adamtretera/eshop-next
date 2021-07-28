@@ -1,4 +1,4 @@
-Projekt codility projekt pro seznam.cz 
+Projekt codility pro seznam.cz 
 Eshop
 
 Data jsem využil: https://jsonplaceholder.typicode.com/
